@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CarController : MonoBehaviour
+public class CarController2ndP: MonoBehaviour
 {
     public static float movespeed = 5;
     private Vector3 movement;
@@ -12,7 +12,7 @@ public class CarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class CarController : MonoBehaviour
 
     void GetMovementInput()
     {
-        movement.z = -Input.GetAxis("Horizontal");
+        movement.z = -Input.GetAxis("Horizontal2");
         movement = Vector3.ClampMagnitude(movement, 1.0f);
     }
     void CharacterRotation()
@@ -39,7 +39,7 @@ public class CarController : MonoBehaviour
 
     void MoveCar()
     {
-       transform.position += transform.right * Time.deltaTime * movespeed;
+        transform.position += transform.right * Time.deltaTime * movespeed;
     }
 
     void Accelerate()
@@ -61,11 +61,10 @@ public class CarController : MonoBehaviour
 
     private void StopCar(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("TileMapObs") || collision.gameObject.CompareTag("Player2"))
+        if (collision.gameObject.CompareTag("TileMapObs") || collision.gameObject.CompareTag("Player1"))
         {
             movespeed = 0;
         }
-
     }
 
     private void checkLap(Collision2D collision)
@@ -73,19 +72,17 @@ public class CarController : MonoBehaviour
         if (collision.gameObject.CompareTag("FinishLine") && checkpoints >= 2)
         {
             lapCount++;
-            GameObject.FindGameObjectWithTag("ScoreP1").GetComponent<Text>().text = "Lap: " + lapCount;
+            GameObject.FindGameObjectWithTag("ScoreP2").GetComponent<Text>().text = "Lap: " + lapCount;
             checkpoints = 0;
         }
 
         if (collision.gameObject.CompareTag("CheckPoint"))
         {
-            if(checkpoints < 2)
+            if (checkpoints < 2)
             {
                 checkpoints++;
                 Debug.Log(checkpoints);
             }
         }
     }
-
-    
 }
