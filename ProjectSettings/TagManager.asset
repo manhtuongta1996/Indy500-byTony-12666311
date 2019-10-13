@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Player1
+  - Player2
+  - FinishLine
+  - TileMapObs
+  - ScoreP1
+  - ScoreP2
+  - CheckPoint
+  - QuitButton
+  - BananaPeel
+  - GasCan
+  - BackButton
   layers:
   - Default
   - TransparentFX
@@ -13,7 +24,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Obstacles
   - 
   - 
   - 
