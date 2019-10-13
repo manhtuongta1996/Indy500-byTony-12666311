@@ -1,7 +1,11 @@
 fileFormatVersion: 2
-guid: 8895d4ae0d0fac24a8d5577a812f17b0
+guid: 868602ef67611644f9d4603f6a3f616a
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Indy car 3.0 Drifting_0
+    21300002: Indy car 3.0 Drifting_1
+    21300004: Indy car 3.0 Drifting_2
+    21300006: Indy car 3.0 Drifting_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -31,7 +35,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +44,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 13
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,11 +97,91 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Indy car 3.0 Drifting_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 177
+        width: 61
+        height: 126
+      alignment: 9
+      pivot: {x: 0.50976825, y: 0.4006895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a56da2e69c24469bbe0424db59f90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indy car 3.0 Drifting_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 178
+        width: 61
+        height: 126
+      alignment: 9
+      pivot: {x: 0.48046324, y: 0.50472915}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a114f67029f555e4cb13cce95e22753c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indy car 3.0 Drifting_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 6
+        width: 61
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ab0165001c6d845bca194c5a274037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indy car 3.0 Drifting_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 7
+        width: 61
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed8f14ea242a4446adb81312435ddd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 71afb2d7bba4c6145932ee580fec1fae
+    spriteID: eb4fc08bc93129e48a69409f0df1df73
     vertices: []
     indices: 
     edges: []
