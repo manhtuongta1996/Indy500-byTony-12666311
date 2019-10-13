@@ -11,6 +11,10 @@ TagManager:
   - ScoreP1
   - ScoreP2
   - CheckPoint
+  - QuitButton
+  - BananaPeel
+  - GasCan
+  - BackButton
   layers:
   - Default
   - TransparentFX
